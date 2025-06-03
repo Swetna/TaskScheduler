@@ -9,6 +9,7 @@ import menu  from "@/app/utils/menu"
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
+import { useAuth } from "@clerk/nextjs";
 import { Bellota_Text } from "next/font/google";
 
 function Sidebar(){
